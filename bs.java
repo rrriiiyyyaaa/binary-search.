@@ -19,7 +19,7 @@ public class Main{
             }
             else
             {
-                rightind = mid+1;
+                rightind = mid-1;
             }
             mid = left + rightind/2;
         }
